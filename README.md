@@ -9,10 +9,6 @@ cat domains.txt | dnsx -ro | cloudseek
 
 ## Installation
 
-To use this tool, you must have Go installed on your system. If you don't have Go installed, you can download it from the official website: https://golang.org/dl/
-
-Once you have Go installed, you can download and install this tool by running the following command:
-
 ```bash
 go install github.com/ninposec/cloudseek@latest
 ```
