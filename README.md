@@ -62,3 +62,24 @@ Provide IPs as a list in a file or through stdin.
   -ips string
     	Path to file ro read IPs from
 ```
+
+Example output:
+
+```bash
+cat ips.txt | cloudseek
+
+52.46.63.233 belongs to Amazon AWS
+52.46.63.234 belongs to Amazon AWS
+52.46.63.235 belongs to Amazon AWS
+52.46.63.236 belongs to Amazon AWS
+52.46.63.237 belongs to Amazon AWS
+52.46.63.238 belongs to Amazon AWS
+52.46.63.239 belongs to Amazon AWS
+52.46.63.240 belongs to Amazon AWS
+13.71.25.239 belongs to Microsoft Azure
+13.71.25.240 belongs to Microsoft Azure
+13.71.25.241 belongs to Microsoft Azure
+13.71.25.242 belongs to Microsoft Azure
+13.71.25.243 belongs to Microsoft Azure
+13.71.25.244 belongs to Microsoft Azure
+```
